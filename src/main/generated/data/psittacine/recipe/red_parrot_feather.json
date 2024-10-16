@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "psittacine:red_parrot_feather_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "psittacine:red_parrot_feather"
+  }
+}

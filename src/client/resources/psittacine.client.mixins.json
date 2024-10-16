@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "misterhyacinth.psittacine.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ParrotEntityModelMixin",
+    "ParrotEntityRendererMixin",
+    "ShoulderParrotFeatureRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+  ]
+}

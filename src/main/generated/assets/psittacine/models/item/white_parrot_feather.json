@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "psittacine:item/white_parrot_feather"
+  }
+}

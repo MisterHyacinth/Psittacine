@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:bamboo_jungle",
+    {
+      "id": "regions_unexplored:bamboo_forest",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:crag_gardens",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:fragment_jungle",
+      "required": false
+    }
+  ]
+}

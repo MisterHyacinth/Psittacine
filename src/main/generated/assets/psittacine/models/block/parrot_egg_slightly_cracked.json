@@ -1,0 +1,6 @@
+{
+  "parent": "psittacine:block/parrot_egg",
+  "textures": {
+    "texture": "psittacine:block/parrot_egg_slightly_cracked"
+  }
+}

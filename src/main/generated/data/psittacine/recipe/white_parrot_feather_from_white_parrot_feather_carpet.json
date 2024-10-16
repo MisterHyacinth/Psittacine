@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "psittacine:white_parrot_feather_carpet"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "psittacine:white_parrot_feather"
+  }
+}

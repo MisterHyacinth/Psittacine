@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "misterhyacinth.psittacine.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FlowerPotBlockMixin",
+    "ParrotEntityMixin",
+    "ShearsItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

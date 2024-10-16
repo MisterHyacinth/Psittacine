@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "psittacine:block/green_parrot_feather_block_bottom",
+    "side": "psittacine:block/green_parrot_feather_block_side",
+    "top": "psittacine:block/green_parrot_feather_block_top"
+  }
+}

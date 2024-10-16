@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "psittacine:block/potted_yellow_parrot_feather",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "psittacine:block/potted_yellow_parrot_feather"
+    },
+    "facing=south": {
+      "model": "psittacine:block/potted_yellow_parrot_feather",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "psittacine:block/potted_yellow_parrot_feather",
+      "y": 270
+    }
+  }
+}

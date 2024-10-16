@@ -1,0 +1,6 @@
+{
+  "parent": "psittacine:block/potted_feather",
+  "textures": {
+    "texture": "psittacine:block/potted_violet_parrot_feather"
+  }
+}

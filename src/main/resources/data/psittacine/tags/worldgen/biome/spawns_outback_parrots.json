@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:wooded_badlands",
+    "#minecraft:is_savanna",
+    {
+      "id": "#c:is_savanna",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:lush_desert",
+      "required": false
+    }
+  ]
+}

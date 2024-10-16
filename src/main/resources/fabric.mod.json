@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "psittacine",
+	"version": "${version}",
+	"name": "Psittacine",
+	"description": "Better Parrots.",
+	"authors": [
+		"Mister Hyacinth"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/MisterHyacinth/Psittacine"
+	},
+	"license": "CC BY-NC-SA 4.0",
+	"icon": "assets/psittacine/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"misterhyacinth.psittacine.Psittacine"
+		],
+		"client": [
+			"misterhyacinth.psittacine.PsittacineClient"
+		],
+		"fabric-datagen": [
+			"misterhyacinth.psittacine.PsittacineDataGenerator"
+		]
+	},
+	"mixins": [
+		"psittacine.mixins.json",
+		{
+			"config": "psittacine.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

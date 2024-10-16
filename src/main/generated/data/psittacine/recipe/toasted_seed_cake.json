@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "psittacine:seed_cake"
+  },
+  "result": {
+    "id": "psittacine:toasted_seed_cake"
+  }
+}

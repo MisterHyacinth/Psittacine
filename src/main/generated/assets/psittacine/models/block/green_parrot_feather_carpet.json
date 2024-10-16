@@ -1,0 +1,9 @@
+{
+  "parent": "psittacine:block/parrot_feather_carpet",
+  "textures": {
+    "bottom": "psittacine:block/green_parrot_feather_block_bottom",
+    "cross": "psittacine:block/green_parrot_feather_block_cross",
+    "side": "psittacine:block/green_parrot_feather_block_side",
+    "top": "psittacine:block/green_parrot_feather_block_top"
+  }
+}
