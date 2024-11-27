@@ -43,9 +43,15 @@ public class PottedFeatherBlock extends Block {
 
 
     protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        Direction dir = state.get(FACING).rotateClockwise(Direction.Axis.Y);
-        world.setBlockState(pos, this.getDefaultState().with(FACING, dir));
-        return ItemActionResult.success(world.isClient);
+
+        if (stack.isEmpty()) {
+            return ItemActionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
+        } else {
+            Direction dir = state.get(FACING).rotateClockwise(Direction.Axis.Y);
+            world.setBlockState(pos, this.getDefaultState().with(FACING, dir));
+            return ItemActionResult.success(world.isClient);
+        }
+
     }
 
 

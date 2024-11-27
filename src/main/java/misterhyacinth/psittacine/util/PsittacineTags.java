@@ -36,6 +36,8 @@ public class PsittacineTags {
             TagKey.of(RegistryKeys.ENCHANTMENT, Identifier.of(MOD_ID, "drops_eggs"));
 
 
+    public static final TagKey<Block> SHEARS_ALWAYS_DROP =
+            TagKey.of(RegistryKeys.BLOCK, Identifier.of("c", "shears_always_drop"));
     public static final TagKey<Block> SHEARS_SPEED_15 =
             TagKey.of(RegistryKeys.BLOCK, Identifier.of("c", "shears_speed_15"));
     public static final TagKey<Block> SHEARS_SPEED_5 =

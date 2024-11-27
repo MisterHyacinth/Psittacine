@@ -1,6 +1,5 @@
 package misterhyacinth.psittacine.mixin;
 
-
 import misterhyacinth.psittacine.util.PsittacineTags;
 import net.minecraft.block.BlockState;
 import net.minecraft.component.type.ToolComponent;
@@ -30,27 +29,24 @@ public class ShearsItemMixin {
         cir.setReturnValue(
                 new ToolComponent(
                         List.of(
+                                ToolComponent.Rule.ofAlwaysDropping(PsittacineTags.SHEARS_ALWAYS_DROP, 15.0F),
                                 ToolComponent.Rule.of(PsittacineTags.SHEARS_SPEED_15, 15.0F),
                                 ToolComponent.Rule.of(PsittacineTags.SHEARS_SPEED_5, 5.0F),
                                 ToolComponent.Rule.of(PsittacineTags.SHEARS_SPEED_2, 2.0F)),
                         1.0F, 1)
-            );
+        );
     }
 
     @Inject(at = @At("HEAD"), method = "postMine", cancellable = true)
     public void postMine(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity miner,
-                            CallbackInfoReturnable<Boolean> cir) {
+                         CallbackInfoReturnable<Boolean> cir) {
         if (!world.isClient && !state.isIn(BlockTags.FIRE)) {
             stack.damage(1, miner, EquipmentSlot.MAINHAND);
         }
         cir.setReturnValue(
-                state.isIn(PsittacineTags.SHEARS_SPEED_15) ||
-                        state.isIn(PsittacineTags.SHEARS_SPEED_5) ||
-                        state.isIn(PsittacineTags.SHEARS_SPEED_2) ||
-                        state.isIn(PsittacineTags.SHEARS_POST_MINE)
+                state.isIn(PsittacineTags.SHEARS_POST_MINE)
         );
     }
-
 
 
 }

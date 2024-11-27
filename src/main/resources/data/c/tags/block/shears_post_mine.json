@@ -1,9 +1,15 @@
 {
   "replace": false,
   "values": [
+    "#minecraft:leaves",
+    "#minecraft:wool",
+    "#psittacine:parrot_feather_blocks",
+    "minecraft:cobweb",
     "minecraft:short_grass",
     "minecraft:fern",
+    "minecraft:dead_bush",
     "minecraft:hanging_roots",
+    "minecraft:vine",
     "minecraft:tripwire"
   ]
 }
